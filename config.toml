@@ -1,0 +1,79 @@
+baseurl = ""
+title = "Joshua Ellis"
+theme = "ghostwriter"
+languageCode = "en-us"
+copyright = "Joshua Ellis"
+disqusShortname = "XXX"
+googleAnalytics = "XXX"
+
+[Author]
+    name = "Joshua Ellis"
+    profile = "https://google.com/+XXX"
+
+[Taxonomies]
+    tag = "tags"
+
+[Params]
+    intro = true
+    headline = "Joshua Ellis"
+    description = "Thoughts shared on Economics, Culture, and things in between"
+    github = "https://github.com/jellishero"
+    # gitlab = "https://gitlab.com/XXX"
+    # linkedin = "https://linkedin.com/in/XXX/"
+    # twitter = "https://twitter.com/jaysparc"
+    # stackoverflow = "https://stackoverflow.com/users/XXX/YYY"
+    email = "jellis@oswego.edu"
+    opengraph = true
+
+   # On posts
+    shareTwitter = true
+    shareFacebook = true
+    shareGooglePlus = true
+    shareLinkedIn = true
+    dateFormat = "Mon, Jan 2, 2006"
+    highlightJsUrl = ""
+    highlightJsLocalUrl = ""
+
+[Permalinks]
+    post = "/:year/:month/:day/:filename/"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+# [[menu.main]]
+#     name = "Blogroll"
+#     url = "/blogroll/"
+#     # url = "/page/blogroll/"
+#     weight = 3
+
+# [[menu.main]]
+#     name = "Projects"
+#     url = "/project/"
+#     weight = 2
+# [[menu.main]]
+#     name = "Notebooks"
+#     url = "/Notebooks/"
+#     weight = 2
+# [[menu.main]]
+#     name = "Contact"
+#     url = "/page/contact/"
+#     weight = 4
+
+
+
+# [[menu.main]]
+#     name = "Tutorials"
+#     url = "/tutorials/"
+#     weight = 6
+
+# [[menu.main]]
+#     name = "Tools"
+#     url = "/page/tools/" # R Packages and such
+#     weight = 5
+
+

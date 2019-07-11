@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+<!-- BASIC TEMPLATE USED FOR EVERY BLOG POST PAGE -->
+<div class="container">
+    <article class="post-container">
+        {{ partial "post-header.html" . }}
+
+        {{ partial "page-content.html" . }}
+
+        {{ partial "post-footer.html" . }}
+    </article>
+</div>
+
+
+{{ end }}

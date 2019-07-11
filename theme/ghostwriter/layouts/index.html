@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+    {{ partial "intro.html" . }}
+
+    <ol class="post-list">
+        <!-- {{ $pag := .Paginate (where .Data.Pages "Type" "post") }} -->
+        {{ $pag := .Paginate (where .Data.Pages "Section" "post") }}
+        {{ range $pag.Pages }}
+            {{ partial "post-stub.html" . }}
+        {{ end }}
+    </ol>
+
+    <div class="post-navigation">
+        {{ partial "pagination.html" . }}
+    </div>
+
+
+
+{{ end }}
